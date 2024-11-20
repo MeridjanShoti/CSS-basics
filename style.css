@@ -1,0 +1,132 @@
+body {
+    margin: 0
+}
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+
+.montserrat {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.image-container {
+    height: 500px;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+h1, h3 {
+    margin-bottom: 0;
+}
+a {
+    font-weight: 600;
+    font-style: italic;
+}
+h6 {
+padding: 22px;
+margin-bottom: 0;
+margin-top: 56px;
+color: white;
+border-radius: 6px;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+#portopalermo {
+    background-image: url(https://t3.ftcdn.net/jpg/05/52/99/06/360_F_552990653_AJc3XkISQD0DhGbALOtaBFT8JeRj9m4F.jpg);
+}
+#alessio {
+    background-image: url(https://www.turismo.al/wp-content/uploads/sites/22/2018/04/Il-Castello-di-Alessio.jpg);
+}
+#argirocastro {
+    background-image: url(https://www.turismo.al/wp-content/uploads/2018/04/Castello-di-Argirocastro-Attrazioni-turistiche-in-Albania.jpg);
+}
+#berat {
+    background-image: url(https://www.vadoinalbania.it/wp-content/uploads/2023/01/castello-berat-albania-nuvole.jpg);
+}
+#croia {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Kruja_Castle_%28by_Pudelek%29.JPG/512px-Kruja_Castle_%28by_Pudelek%29.JPG?20141014152825);
+}
+#durazzo {
+    background-image: url(https://magazine.snav.it/wp-content/uploads/2020/04/Il-castello-di-durazzo-e-la-torre-veneziana.jpg);
+}
+li {
+    padding: 6px, 22px;
+    border-bottom: 1px;
+    border-color: #dfdfdf;
+    text-decoration: none;
+}
+#pp{
+    background: linear-gradient(to right, #3d4a1f, #0072ab);
+}
+#al{
+    background: linear-gradient(to right, #34b042, #f2e4d7);
+}
+#ar{
+    background: linear-gradient(to right, #447545, #3b3824);
+}
+#be{
+    background: linear-gradient(to right, #546a68, #7098be);
+}
+#cr{
+    background: linear-gradient(to right, #678fb2, #eae2d1);
+}
+#du{
+    background: linear-gradient(to right, #f4ebf0, #242c50);
+}
+.portopalermo {
+    color: #3d4a1f;
+}
+.portopalermo:visited{
+    color: #0072ab;
+}
+.alessio{
+    color: #34b042;
+}
+.alessio:visited{
+    color:#f2e4d7;
+}
+.argirocastro{
+    color:#447545 ;
+}
+.argirocastro:visited{
+    color:#3b3824;
+}
+.berat{
+    color:#546a68 ;
+}
+.berat:visited{
+    color:#7098be;
+}
+.croia{
+    color: #678fb2;
+}
+.croia:visited{
+    color:#eae2d1;
+}
+.durazzo{
+    color:#f4ebf0 ;
+}
+.durazzo:visited{
+    color:#242c50;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
+img:hover{
+    width: 110%;
+    height: 110%;
+}
